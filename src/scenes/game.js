@@ -182,9 +182,7 @@ class GameScene extends Phaser.Scene {
     this.keySpace = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.SPACE);
   }
 
-  counterWhite = (num) => num
 
-  counterBlue = (num) => num
 
   update() {
     if (!this.player.getData('isDead')) {
